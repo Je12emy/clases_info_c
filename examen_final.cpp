@@ -21,10 +21,8 @@ int main(){
 
         cout << "1. Contador de letras." << endl;
         cout << "2. Imprimir una figura." << endl;
-
-        cout << "Seleccione un programa: " << "";
+        cout << "Seleccione un programa " << "o Ingrese cualquier otro nuemro para buscar salir: " << "";
         cin >> opcion;
-
 
 
         // Validar opción con un switch
@@ -42,7 +40,7 @@ int main(){
                     int letras;
                     char letra;
 
-                    cout << "Ingrese cuantas letras desea ingresar" << "" << endl;
+                    cout << "Ingrese cuantas letras desea ingresar: " << "";
                     cin >> letras;
                 
                     // Por cada letra en la palabra
@@ -96,7 +94,7 @@ int main(){
             default:
                 {
                     char salir;
-                    cout << "Desea salir del programa?[s/n]:" << "";
+                    cout << "Desea salir del programa? [s/n]: " << "";
                     cin >> salir;
                     
                     if(salir == 's') {
